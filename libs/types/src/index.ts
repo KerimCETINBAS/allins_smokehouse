@@ -1,0 +1,1 @@
+export * as KitSlider from "./kit.slide" 

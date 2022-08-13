@@ -3,6 +3,7 @@
     import 'virtual:windi.css';
     import Footer from './_layout_components/footer.svelte';
     import Header from "./_layout_components/header.svelte";
+    import SideMenu from './_layout_components/side_menu.svelte';
 </script>
 
 <!-- #region fontawesome -->
@@ -14,7 +15,7 @@
      referrerpolicy="no-referrer" />
 </svelte:head>
 <!-- #endregion fontawesome -->
-
+<SideMenu />
 <div class="cursor-none">
 
 

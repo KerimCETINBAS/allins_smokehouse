@@ -9,6 +9,14 @@
 
 <div class="w-full  p-[10px] absolute top-0 z-999  ">
     <Container>
+        <aside >
+            <ul class="flex flex-row gap-8 text-white justify-end mt-4">
+                <li><a sveltekit:prefetch href="/"><i class="fa-brands fa-whatsapp"></i> (282) 000 00 00</a></li>
+                <li><a sveltekit:prefetch href="/login">Giris</a></li>
+                <li><a sveltekit:prefetch href="/register">Kayit</a></li>
+               
+             </ul>
+        </aside>
         <div id="header" class="h-[143.5px] flex flex-row" >
            <Logo />
             <section id="nav" class="<lg:hidden">
@@ -19,7 +27,6 @@
                        <li><a sveltekit:prefetch href="/menu">Menu</a></li>
                        <li><a sveltekit:prefetch href="/gallery">Gallery</a></li>
                        <li><a sveltekit:prefetch href="/contact">Contact</a></li>
-                       <li><a sveltekit:prefetch href="/news">New</a></li>
                     </ul>
                 </nav>
             </section>

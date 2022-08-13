@@ -1,3 +1,11 @@
+
+<script context="module" lang="ts">
+    import type { Load} from "@sveltejs/kit"
+    export const load: Load = async ({session}) => {
+
+        console.log(session)
+    }
+</script>
 <script lang="ts">
     //#region imports
     import Banner from "./_page_components/home/banner/banner.svelte";

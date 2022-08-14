@@ -21,7 +21,10 @@ import Textarea from "@allins/libs.components/textarea.svelte";
                 <Input placeholder="Telefonunuz " />
                 <Input placeholder="Epostaniz" />
             </div>
-
+            <div class="flex flex-row gap-6">
+                <Input placeholder="Sifre " />
+                <Input placeholder="Sifre tekrar" />
+            </div>
             <div class="flex flex-row gap-6">
                  <Textarea placeholder="Adresiniz" />
             </div>

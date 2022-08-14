@@ -32,11 +32,11 @@
 
 <section id="promo" class="w-full h-auto"> <Promo /></section>
 
-<section> <TodaysMenu /> </section>
-
+<!-- <section> <TodaysMenu /> </section> -->
+<section> <Recipe /></section>
 <section> <Slider_2 /></section>
 
-<section> <Recipe /></section>
+
 
 
 

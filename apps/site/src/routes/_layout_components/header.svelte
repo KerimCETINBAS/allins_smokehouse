@@ -22,7 +22,11 @@
             <section id="nav" class="<lg:hidden">
                 <nav>
                     <ul>
-                       <li><a sveltekit:prefetch href="/">Home</a></li>
+                       <li><a sveltekit:prefetch href="/">
+                                <i class="fa fa-home"></i>
+                           </a>
+                        </li>
+                       <li><a sveltekit:prefetch href="/products">Products</a></li>
                        <li><a sveltekit:prefetch href="/about">About</a></li>
                        <li><a sveltekit:prefetch href="/menu">Menu</a></li>
                        <li><a sveltekit:prefetch href="/gallery">Gallery</a></li>
